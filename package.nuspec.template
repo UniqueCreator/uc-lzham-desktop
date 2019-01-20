@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>uc-lzham-desktop</id>
+    <version>@version</version>
+    <title>microsoft gsllibrary</title>
+    <authors>Stefan Dyulgerov</authors>
+    <owners>kingofthebongo2009</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://blogs.msdn.microsoft.com/pix/winpixeventruntime/</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/df362936893270e6a1b53807fa90e8fa</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows Native C++ Applications to use precompiled lzham</description>
+    <tags>zip,lzham,compress,unique,uc,creator</tags>
+  </metadata>
+  <files>
+    <file src = "uc-lzham\include\**" target = "build/native/include" />
+    <file src = "build\uc-lzham-desktop.targets" target = "build/native" />
+  </files>
+    <dependencies>
+        <dependency id="lzham-win64"/>
+    </dependencies>
+</package>

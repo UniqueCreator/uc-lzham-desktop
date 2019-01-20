@@ -1,0 +1,3 @@
+[submodule "uc-lzham"]
+	path = uc-lzham
+	url = https://github.com/kingofthebongo2008/uc-lzham.git
