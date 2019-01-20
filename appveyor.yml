@@ -6,7 +6,7 @@ configuration: Release
 platform: x64
 clone_folder: c:\projects
 install:
-  - cd %APPVEYOR_BUILD_FOLDER%
+  - cd c:\projects
   - git submodule update --init --recursive
 build_script:
 - cmd: >-
