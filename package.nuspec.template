@@ -12,12 +12,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled lzham</description>
     <tags>zip,lzham,compress,unique,uc,creator</tags>
+    <dependencies>
+        <dependency id="lzham-win64"/>
+    </dependencies>
   </metadata>
   <files>
     <file src = "uc-lzham\include\**" target = "build/native/include" />
     <file src = "build\uc-lzham-desktop.targets" target = "build/native" />
   </files>
-    <dependencies>
-        <dependency id="lzham-win64"/>
-    </dependencies>
 </package>
